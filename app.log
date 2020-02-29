@@ -1,0 +1,267 @@
+[16Feb 21:04:46] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:06:57] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\carlist\settings.py changed, reloading.
+[16Feb 21:07:03] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:07:57] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:07:58] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:11:55] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:12:26] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:12:27] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:13:15] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:13:16] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:14:08] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\models.py changed, reloading.
+[16Feb 21:14:09] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:15:03] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:15:04] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:16:16] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:16:17] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:16:48] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:16:49] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:17:29] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[16Feb 21:17:31] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:23:05] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\carlist\settings.py changed, reloading.
+[16Feb 21:23:06] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[16Feb 21:23:31] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\carlist\settings.py changed, reloading.
+[16Feb 21:26:59] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:42:57] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:46:07] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\models.py changed, reloading.
+[17Feb 17:46:08] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:48:22] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:48:23] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:49:17] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:49:18] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:49:30] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:50:12] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:50:46] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:50:48] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:50:53] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:50:53] ERROR [django.request:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anaconda\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carslist.html, cars/car_list.html
+[17Feb 17:51:32] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:51:33] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:51:49] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:51:58] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:52:01] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:52:04] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:52:10] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:52:53] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:52:54] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:52:55] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:04] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:17] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:53:18] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:53:19] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:20] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:22] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:23] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:25] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:30] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:53:32] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 17:53:35] INFO [cars.views:17] CarsList.get_queryset called
+[17Feb 17:53:55] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 17:53:57] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 18:16:56] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\cars\views.py changed, reloading.
+[17Feb 18:17:11] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 18:19:31] WARNING [django.request:228] Not Found: /favicon.ico
+[17Feb 18:23:50] WARNING [django.request:228] Not Found: //
+[17Feb 18:35:29] ERROR [django.request:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anaconda\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Anaconda\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Anaconda\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Anaconda\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Anaconda\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Anaconda\lib\site-packages\django\template\defaulttags.py", line 952, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 36: 'endblock', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[17Feb 18:35:57] ERROR [django.request:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Anaconda\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Anaconda\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Anaconda\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Anaconda\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Anaconda\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Anaconda\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Anaconda\lib\site-packages\django\template\defaulttags.py", line 952, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Anaconda\lib\site-packages\django\template\base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 36: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[17Feb 18:46:07] WARNING [django.request:228] Not Found: /favicon.ico
+[17Feb 18:46:35] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[17Feb 18:47:50] WARNING [django.request:228] Not Found: /favicon.ico
+[17Feb 18:51:17] INFO [django.utils.autoreload:222] C:\skillfactory\carlist\carlist\settings.py changed, reloading.
+[18Feb 18:21:46] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[18Feb 18:22:15] WARNING [django.request:228] Not Found: /favicon.ico
+[18Feb 18:36:48] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[18Feb 18:36:50] WARNING [django.request:228] Not Found: /3
+[18Feb 18:36:52] WARNING [django.request:228] Not Found: /3
+[18Feb 18:36:55] WARNING [django.request:228] Not Found: /favicon.ico
+[18Feb 18:46:26] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[19Feb 16:35:54] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[19Feb 16:35:57] WARNING [django.request:228] Not Found: /login/
+[19Feb 16:35:59] WARNING [django.request:228] Not Found: /login/
+[29Feb 21:52:57] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[29Feb 21:55:19] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[29Feb 21:55:45] WARNING [django.request:228] Not Found: /favicon.ico
+[29Feb 22:10:50] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[29Feb 22:10:57] ERROR [django.request:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "C:\Anaconda\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "C:\Anaconda\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "C:\Anaconda\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'C:\\skillfactory\\carlist\\staticfiles'
+[29Feb 22:11:22] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[29Feb 22:11:25] ERROR [django.request:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "C:\Anaconda\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "C:\Anaconda\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "C:\Anaconda\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'C:\\skillfactory\\carlist\\staticfiles'
+[29Feb 22:11:29] ERROR [django.request:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "C:\Anaconda\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "C:\Anaconda\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "C:\Anaconda\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "C:\Anaconda\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'C:\\skillfactory\\carlist\\staticfiles'
+[29Feb 22:12:48] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
